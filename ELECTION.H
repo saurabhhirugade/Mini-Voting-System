@@ -86,7 +86,6 @@ void banID(){
     FILE *fp=fopen("Banned.txt", "w");
     if(fp==NULL){
         printf("Error: Banned.txt not created.\n");
-        fclose(fp);
         return;
     }
     printf("Just Enter last roll no to ban\nPress 0 to exit... ");
